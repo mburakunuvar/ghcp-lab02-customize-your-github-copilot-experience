@@ -21,11 +21,11 @@ In this exercise, you will:
 1. Build reusable prompt templates for common tasks like homework assignments
 1. Configure custom agents for specialized workflows
 
-### How to start this exercise
+## How to start this exercise
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+## Simply copy the exercise to your account, it'll look same to this repo first but wait for **about 20 seconds** and refresh the page.  Your favorite instructor, Octocat (Mona) will prepare the first lesson.
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=mburakunuvar&template_name=ghcp-lab02-customize-your-github-copilot-experience&owner=%40me&name=ghcp-lab02-customize-your-github-copilot-experience&description=Exercise:+Customize+Your+GitHub+Copilot+Experience&visibility=public)
+[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=mburakunuvar&template_name=ghcp-lab02-customize-your-github-copilot-experience&owner=%40me&name=lab02-customize-your-github-copilot-experience&description=Exercise:+Customize+Your+GitHub+Copilot+Experience&visibility=public)
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>

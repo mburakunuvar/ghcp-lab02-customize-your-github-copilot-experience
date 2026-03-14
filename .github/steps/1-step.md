@@ -63,7 +63,7 @@ Now that you've explored the project, let's create custom instructions to help C
    .github/copilot-instructions.md
    ``` 
 
-   > ❕ **Important:** Make sure the file name is correct. This specific filename is required for Copilot to recognize it.
+   > ❕ **Important:** Make sure the file name and location correct. This specific filename is required for Copilot to recognize it. And this repository-wide instruction file should be in ".github" directory (same level with steps and workflows folders)
 
 1. Add the following content so Copilot understands the project's purpose, structure, and requirements:
 
@@ -100,9 +100,17 @@ Now that you've explored the project, let's create custom instructions to help C
    > Briefly explain this project to me
    > ```
 
+
+
 1. Notice that Copilot uses your custom instructions as a reference in the response.
 
    <img width="504" height="183" alt="image" src="https://github.com/user-attachments/assets/2214ed9e-c165-4440-a23e-d2d33c0231a9" />
+
+
+   > 🪧 **Note:**  Due to the non-deterministic nature of AI, Copilot may not always follow your custom instructions in exactly the same way every time they are used. 
+
+   
+   <img alt="copilot-instructions-used" src="../../assets/images/copilot-instructions-used.png" />
 
 1. Commit the `.github/copilot-instructions.md` file to the `main` branch and push it to GitHub.
 

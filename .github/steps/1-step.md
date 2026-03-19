@@ -7,9 +7,9 @@ You've heard Copilot Instructions can help with that!
 <details>
 <summary>Website screenshot 📸</summary><br/>
 
-You will run this website in the first activity!
+You will run this website in the first activity! If 
 
-<img width="600" alt="screenshot of homework website" src="https://github.com/user-attachments/assets/2383b6e9-64d5-4907-94b3-b67153efb008" />
+<img width="600" alt="screenshot of homework website" src="https://raw.githubusercontent.com/mburakunuvar/ghcp-lab02-customize-your-github-copilot-experience/main/assets/images/homework-website.png" />
 
 </details>
 
@@ -28,7 +28,7 @@ See the [GitHub Docs: Repository Custom Instructions](https://docs.github.com/en
 
 To work with custom instructions, let's first set up our development environment and explore the project structure.
 
-1. Right-click the below button to open the **Create Codespace** page in a new tab. Use the default configuration.
+1. **Right-click** the below button to open the **Create Codespace** page in a new tab. Use the default configuration.
 
    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/{{full_repo_name}}?quickstart=1)
 
@@ -37,7 +37,7 @@ To work with custom instructions, let's first set up our development environment
    - ✅ Your copy: `/{{full_repo_name}}`
    - ❌ Original: `/mburakunuvar/ghcp-lab02-customize-your-github-copilot-experience`
 
-1. Wait a moment for Visual Studio Code to load in your browser and for all extensions to install.
+1. Wait for 2-3 minutes for Visual Studio Code to load in your browser and for all extensions to install.
 
    - Ensure the **Live Preview** extension is activated.
    - Ensure the **Python** extension is activated.
@@ -97,20 +97,18 @@ Now that you've explored the project, let's create custom instructions to help C
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Briefly explain this project to me
+   > Briefly explain #file:copilot-instructions.md to me
    > ```
 
+ ![copilot-instructions-used](https://raw.githubusercontent.com/mburakunuvar/ghcp-lab02-customize-your-github-copilot-experience/main/assets/images/copilot-instructions-used.png)
+
+1.  Repository-wide custom instructions apply to all requests made in the context of a repository. These are specified in a copilot-instructions.md file in the .github directory of the repository.
 
 
-1. Notice that Copilot uses your custom instructions as a reference in the response.
 
-   <img width="504" height="183" alt="image" src="https://github.com/user-attachments/assets/2214ed9e-c165-4440-a23e-d2d33c0231a9" />
-
-
-   > 🪧 **Note:**  Due to the non-deterministic nature of AI, Copilot may not always follow your custom instructions in exactly the same way every time they are used. 
+   > 🪧 **Note:**  Due to the non-deterministic nature of AI, Copilot will not always give exactly the same response. 
 
    
-   <img alt="copilot-instructions-used" src="../../assets/images/copilot-instructions-used.png" />
 
 1. Commit the `.github/copilot-instructions.md` file to the `main` branch and push it to GitHub.
 

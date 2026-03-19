@@ -62,7 +62,7 @@ Now let's create a specialized custom agent for brainstorming assignment ideas.
 
 1. Select your custom agent from the agent dropdown list.
 
-   <img width="379" height="218" alt="copilot agent: assignment brainstorming agent selected" src="../../assets/images/assignment-assistant.png" />
+   <img width="379" height="218" alt="copilot agent: assignment brainstorming agent selected" src="https://raw.githubusercontent.com/mburakunuvar/ghcp-lab02-customize-your-github-copilot-experience/main/assets/images/assignment-assistant.png" />
 
 1. Test the custom agent with questions a lecturer might ask. Notice the different response format!
 
